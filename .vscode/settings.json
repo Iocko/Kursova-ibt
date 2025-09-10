@@ -1,0 +1,26 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "css.customData": [".vscode/tailwind.json"],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.watcherExclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "search.exclude": {
+    "**/routeTree.gen.ts": true
+  }
+}
